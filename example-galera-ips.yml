@@ -1,0 +1,7 @@
+listen: 0.0.0.0:6031
+
+proxysql:
+  host: 127.0.0.1
+  port: 6032
+  username: admin
+  password: admin
