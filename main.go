@@ -10,8 +10,6 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
-// Simple DNS proxy server that forwards requests to Consul or other name servers
-
 // CGO_ENABLED=0 go build -ldflags="-s -w" -tags=netgo -installsuffix netgo -trimpath .
 
 func main() {
